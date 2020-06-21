@@ -1,0 +1,5 @@
+Make your python script executable:
+$ chmod +x myecho.py
+-> $ ./myecho.py Hello, World!
+Add shebang at the begining of the code:
+#!/usr/bin/env python
