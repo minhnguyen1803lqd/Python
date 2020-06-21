@@ -15,6 +15,6 @@ commit = getMessage(command)
 
 print(commit)
 
-# os.popen("git add --all")
-# os.popen("git commit -m \"" + commit + "\"")
-# os.popen("git push origin master")
+os.popen("git add --all")
+os.popen("git commit -m \"" + commit + "\"")
+os.popen("git push origin master")
