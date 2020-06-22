@@ -19,7 +19,7 @@ def getArgs(command):
 def makeFunc(args):
     path = args[0]
     name = ""
-    for i in range(len(path) - 1, 0, -1):
+    for i in range(len(path) - 1, -1, -1):
         if path[i] == '/':
             break
         name = path[i] + name
